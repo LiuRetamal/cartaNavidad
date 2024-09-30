@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!--Cargar normalize para css-->
+     <link rel="preload" href="css/normalize.css" as="style">
+     <link rel="stylesheet" href="css/normalize.css">
+
+     <!--  Importar fuentes-->
+     <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+     <!--Cargar css principal-->
+     <link rel="preload" href="css/style.css" as="style">
+     <link rel="stylesheet" href="css/style.css">
+
+    <!--Icono de la página-->
+    <link rel="shortcut icon" href="img/logo.png">
+    <!--Título de la Página-->
+    <title>Contacto</title>
+</head>
+<body>
+    <!--Encabezado de la pagina. Título principal-->
+    <header>
+        <div class="cabecera">
+            <h1 class="titulo">Contacto</h1>
+            <a href="index.html" class="logo"><img src="img/logo.png" class="imgIcono" alt="icono"></a>    
+        </div>
+    </header>
+        <!--Barra de menú con enlaces-->
+        <div class="nav-bg">
+            <nav class="nav-principal contendor"> 
+                <a href="index.html">Inicio</a> 
+                <a href="sobreMi.html">Sobre Mi</a>
+                <a href="reyes.html">Reyes Magos</a>
+                <a href="carta.html">Carta</a>  
+                <a href="contacto.html" class="amarillo">Contacto</a>     
+            </nav>
+        </div>
+
+   
+    <main class="contenedor">
+         
+
+        <div class="contacto-bg"></div>    
+
+        <form class="form">          
+            <h3 class="centrar-texto">Contáctame para dudas o más información</h3>
+            <div class="campo">
+                <label for="nombre" class="campo__label">Nombre</label>
+                <input class="campo__field" type="text" placeholder="Tu Nombre" id="nombre">
+            </div>
+
+            <div class="campo">
+                <label for="correo" class="campo__label">Correo</label>
+                <input class="campo__field" type="email" placeholder="Tu E-mail" id="correo">
+            </div>
+
+            <div class="campo">
+                <label for="mensaje" class="campo__label">Mensaje</label>
+                <textarea class="campo__field campo__field--textarea" id="mensaje"></textarea>
+            </div>
+            
+            <div class="alinear-derecha flex">
+                <input class="boton boton--primario" type="submit" value="Enviar">
+            </div>
+
+        </form>
+
+        <h3>O puedes mandarme un Whatsapp al 639 15 18 53</h3>
+        <div class="imagenes">
+            <img src="img/leia.jpg" class="img5" alt="">                
+        </div>
+    </main>
+    
+    <!--Pie de página. Al final del todo-->
+    <footer class="footer">
+        <p>Todos los derechos resevados. Carta de Navidad. Liu Retamal </p>
+    </footer>
+
+</body>
+</html>
